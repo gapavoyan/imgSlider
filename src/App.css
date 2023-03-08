@@ -1,0 +1,31 @@
+body{
+  background-color: rgb(130, 110, 110);
+
+}
+.container{
+  max-width: 1400px;
+  height: 600px;
+  margin: auto;
+  padding:64px 16px ;
+  position: relative;
+}
+.imgContainer{
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.fa-chevron-left{
+  position: absolute;
+  font-size: 60px;
+  top: 350px;
+  left: 40px;
+  color: aliceblue;
+}
+.fa-chevron-right{
+  color: aliceblue;
+
+  position: absolute;
+  font-size: 60px;
+  top: 350px;
+  right: 40px;
+}
